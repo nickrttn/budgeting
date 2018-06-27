@@ -1,0 +1,37 @@
+{
+  "name": "budgeting",
+  "version": "1.0.0",
+  "description": "A simple daily budgeting app",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickrttn/budgeting.git"
+  },
+  "keywords": [
+    "next.js",
+    "javascript",
+    "node"
+  ],
+  "author": "Nick Rutten <hello@nickrttn.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickrttn/budgeting/issues"
+  },
+  "homepage": "https://github.com/nickrttn/budgeting#readme",
+  "dependencies": {
+    "auth0-js": "^9.6.1",
+    "history": "^4.7.2",
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
